@@ -37,7 +37,7 @@ def login(request):
 
 
 
-        return render(request,'index.html',{'name':m.email})
+        return render(request,'base.html',{'name':m.email})
     else:
         return HttpResponse("invalid")
  else:
@@ -61,9 +61,9 @@ def homepage(request):
     return render(request, 'index.html')
 
 def userpage(request):
-    return render(request, 'homepage.html')
+    return render(request, 'index.html')
 def uspg(request):
-    return render(request, 'homepage.html')
+    return render(request, 'index.html')
 def index(request):
     latest_question_list = Question.objects.order_by('-pub_date')[:5]
     context = {'latest_question_list': latest_question_list}
