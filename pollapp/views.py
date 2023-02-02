@@ -37,7 +37,7 @@ def login(request):
 
 
 
-        return render(request,'pages/index.html',{'name':m.email})
+        return render(request,'index.html',{'name':m.email})
     else:
         return HttpResponse("invalid")
  else:
@@ -50,15 +50,15 @@ def logout(request):
          pass
      return render(request, 'login/login.html')
 def main(request):
-    return render(request, 'pages/index.html')
+    return render(request, 'index.html')
 
 def main(request):
-    return render(request, 'pages/index.html')
+    return render(request, 'index.html')
 
 
 
 def homepage(request):
-    return render(request, 'pages/index.html')
+    return render(request, 'index.html')
 
 def userpage(request):
     return render(request, 'homepage.html')
