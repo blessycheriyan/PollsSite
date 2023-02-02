@@ -25,7 +25,7 @@ SECRET_KEY = 'o@nec41@mz-p+x2ri1t&#p@h=cu(fix!-duxfv7&$s7cv^63*o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pollssite-production.up.railway.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
