@@ -124,7 +124,7 @@ STATICFILES_DIRS=[
 
 ]
 STATIC_ROOT=os.path.join(BASE_DIR,'assests') 
-# CRISPY_TEMPLATE_PACK='bootstrap4' changes to 'bootstrap latest
+# CRISPY_TEMPLATE_PACK='bootstrap4' changes to 'bootstrap latest chnges
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 CRISPY_TEMPLATE_PACK = "bootstrap5"
